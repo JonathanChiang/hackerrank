@@ -10,9 +10,7 @@ The goal is to write the shortest code possible.
 
 Scoring: Your score is (200 - number of characters in your source
 code)/10
-"""
-
-a = [x for x in range(1, 101)]       
-b = ["FizzBuzz" if y%15==0 else "Buzz" if y%5==0 else "Fizz" if y%3==0 else y for y in a]
-for z in b:
+"""      
+a = ["FizzBuzz" if y%15==0 else "Buzz" if y%5==0 else "Fizz" if y%3==0 else y for y in range(1, 101)]
+for z in a:
     print z
